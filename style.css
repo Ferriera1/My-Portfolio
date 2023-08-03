@@ -1,0 +1,72 @@
+.flex{
+    display: flex;
+}
+
+body{
+    /* style="border: 1px solid black; list-style: none;" */
+    background-color: pink;
+    border: 1px solid black;
+}
+header{
+    border: 1px solid black; 
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.nav-link{
+  margin-right: 10px;
+
+}
+.nav-link a{
+    text-decoration: none;
+    color: black;
+}
+#pro-pic{
+    max-width: 200px;
+    max-height: 200px;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.about-me{
+    border: 1px solid black;
+    justify-content: space-between;
+    background-color: lightgrey;
+}
+.aMpG{
+    border: 1px solid black;
+    margin: 2.5em;
+    background-color: whitesmoke;
+}
+
+/* .li ::after {
+    display: inline-block;
+    padding: 0 3px;
+    content: none;
+} */
+/* article{
+    border: 1px solid black;
+    margin: 1em;
+    padding: 3em rgb(156, 156, 156);
+    display: inline-flex;
+}
+.figure {
+    border: 1px black solid;
+    margin: 2em;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+
+}
+.img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+section{
+    border: 1px solid black;
+
+}
+ */
