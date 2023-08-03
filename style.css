@@ -37,10 +37,21 @@ header nav ul{
 }
 .aMpG{
     border: 1px solid black;
+    border-radius: 4%;
     margin: 2.5em;
     background-color: whitesmoke;
 }
-
+main section ul{
+    list-style: none;
+}
+body main aside {
+    border: 1px solid black;
+}
+.projects{
+    border: 1px solid black;
+    justify-content: space-between;
+    background-color: lightgray;
+}
 /* .li ::after {
     display: inline-block;
     padding: 0 3px;

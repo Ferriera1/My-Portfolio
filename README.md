@@ -6,3 +6,4 @@ Added profile image
 Noticed I had 2 images and created an image folder as a home for them
 Added the rest of my HTML and started fixing my CSS so that it looks a little closer to my wireframe
 Created a Project.html so that I could link my images to it
+tried to fix my main tag so that the aside and section tags are beside each other but failed to make the section tag tage up the rest of the space in the main tag
