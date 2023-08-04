@@ -6,6 +6,7 @@ body{
     /* style="border: 1px solid black; list-style: none;" */
     background-color: pink;
     border: 1px solid black;
+    display: grid;
 }
 header{
     border: 1px solid black; 
@@ -23,6 +24,7 @@ header nav ul{
     text-decoration: none;
     color: black;
 }
+
 #pro-pic{
     max-width: 200px;
     max-height: 200px;
@@ -41,16 +43,46 @@ header nav ul{
     margin: 2.5em;
     background-color: whitesmoke;
 }
+main{
+    border: 1px solid black;
+    justify-content: space-between;
+    background-color: lightgrey;
+}
 main section ul{
+    padding: 10px;
     list-style: none;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.left-bar{
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 250px;
+}
+.github-link{
+    text-decoration: none;
+    color: black;
 }
 body main aside {
+    margin: 2.5em;
     border: 1px solid black;
 }
 .projects{
     border: 1px solid black;
-    justify-content: space-between;
+    margin: 2.5em;
+    justify-content: space-between center;
     background-color: lightgray;
+}
+/* .pro-box{
+    display: flex;
+} */
+.project-image1{
+    border: 1px solid black;
+    max-width: 200px;
+}
+.project-image{
+    max-width: 150px;
+    border: 1px solid black;
 }
 /* .li ::after {
     display: inline-block;

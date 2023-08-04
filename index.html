@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="Project.html" rel="import">
     <title>Document</title>
 </head>
 
@@ -21,7 +22,9 @@
         </nav>
     </header>
     <section class="flex">
+        <div class="profile-img">
         <img id="pro-pic" src="/Images/IMG-(1).png" alt="My profile photo">
+        </div>
         <div class="flex about-me">
             <div class="aMpG">
                 <h3>About Me</h3>
@@ -39,26 +42,42 @@
     </section>
     <main class="flex">
         <aside class="left-bar">
-            <p id="contactMe"><h4>Contact Me</h4> Here is my email <br> Here is my GitHub Link</p>
-            <p><h4>Certifications</h4> Here is my certificate</p>
-            <p id="skills"><h4>Skills</h4> 
-                <ol>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>SQL</li>
-                    <li>NOSQL</li>
-                    <li>JAVA</li>
-                    <li>Javascript</li>
-                    <li>Spring Framework</li>
-                </ol>
+            <p id="contactMe">
+            <h4>Contact Me</h4> Email: ferrieradayna@gmail.com <br> GitHub Link: <a class="github-link"
+                href="https://github.com/Ferriera1?tab=repositories">github.com/Ferriera1</a></p>
+            <p>
+            <h4>Certifications</h4> Here is my certificate</p>
+            <p id="skills">
+            <h4>Skills</h4>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQL</li>
+                <li>NOSQL</li>
+                <li>JAVA</li>
+                <li>Javascript</li>
+                <li>Spring Framework</li>
+            </ol>
             </p>
         </aside>
         <section class="projects">
             <h4>Projects</h4>
             <ul>
-                <li><img src="/Project.html" alt="Project 1" href="Project.html"></li>
-                <li><img src="/Project.html" alt="Project 2" href="Project.html"></li>
-                <li><img src="/Project.html" alt="Project 3" href="Project.html"></li>
+                <li> <div class="pro-box">
+                    <a href="Project.html">
+                        <img class="project-image1" src="Images/images.png" alt="Project 1" />
+                    </a>
+                </div></li>
+                <li><div class="pro-box">
+                    <a href="Project.html">
+                        <img class="project-image" src="Images/images.png" alt="Project 2"/>
+                    </a>
+                </div></li>
+                <li><div class="pro-box">
+                    <a href="Project.html">
+                        <img class="project-image" src="Images/images.png" alt="Project 3" href="Project.html">
+                    </a>
+                </div></li>
             </ul>
         </section>
     </main>
