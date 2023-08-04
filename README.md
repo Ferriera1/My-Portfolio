@@ -9,3 +9,4 @@ Created a Project.html so that I could link my images to it
 tried to fix my main tag so that the aside and section tags are beside each other 
 Semi fixed the spacing between the contact me and Projects sections
 Cleaned up the css a bit and fixed some spacing
+linked my projects id in the nav bar properly
