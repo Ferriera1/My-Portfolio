@@ -10,3 +10,4 @@ tried to fix my main tag so that the aside and section tags are beside each othe
 Semi fixed the spacing between the contact me and Projects sections
 Cleaned up the css a bit and fixed some spacing
 linked my projects id in the nav bar properly
+Added the first group project to the first image in the project section
